@@ -5,9 +5,9 @@ require_relative '../views/principal_view'
 
 include SqlQueryExecutor
 #initializes the db with the given name and create it if does not exists
-#db_folder_path = "../../db/"
-#@db_handler = DbHandler.new(db_folder_path, "mock_nequi_db.db")
-#@db_handler.create
+db_folder_path = "../../db/"
+db_name = "mock_nequi_db.db"
+@db_handler = DbHandler.new(db_folder_path, db_name)
 
 menu = PrincipalView.new()
 #menu = SignUpView.new()
