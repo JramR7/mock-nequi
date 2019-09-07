@@ -23,14 +23,7 @@ This project is created with:
 
 For more details of the packages and dependencies used in this service, please go to the 'Gemfile' on this repo.
 
-## Setup
-* To run this project you will need NPM to install the node dependencies and run the dev environment.
-* You will need to install MongoDB.
-* To install the dependencies you need to run 'npm install' inside the main folder.
-* To create the seeds of the products, go to seed and run 'node product_seeder.js'.
-* To run the shopping cart API just run 'npm start' inside the main folder.
-
-##Collaborators:
+## Collaborators:
 
 - Cristhian Camilo Gómez Neira
 - José Manuel Ramírez Restrepo
